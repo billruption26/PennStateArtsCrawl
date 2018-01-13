@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:drawSelectorOnTop="true">
+
+        <!--main image on the About page, should be updated to event preference-->
+        <ImageView
+            android:id="@+id/groupPic"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arts_crawl_group_shot" />
+
+        <!--Description of the event, text should be updated  for current year-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/profTitle"
+            android:text="The fifth annual Arts Crawl, a showcase of original Penn State arts and music, will take place on Friday, April 8th at 5:30 PM in the Visual Arts building. Arts Crawl will focus on student created works including visual arts, sculpture, new media, dance, painting, architecture, fashion, performance art, photography, and live music. "/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:background="@android:color/darker_gray">
+
+    <!--create image to put for the artist-->
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/artistIcon"/>
+
+    <!--set up so text is to the right of the image-->
+    <LinearLayout
+        android:id="@+id/itemText1"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/artistIcon"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <!--input the name of the band or artist/art collective-->
+        <TextView
+            android:id="@+id/artistName"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="Artist Name"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <!--input the genre of the band or artist/art collective-->
+        <TextView
+            android:id="@+id/artistGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="Artist Genre"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <!--set up so text is to the right of the image-->
+    <LinearLayout
+        android:id="@+id/itemText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="0dp"
+        android:layout_toRightOf="@+id/itemText1"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <!--input the time the band or artist/art collective will begin-->
+        <TextView
+            android:id="@+id/artistTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4:30PM"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <!--input the building and room the band or artist/art collective will be in, if an outdoor festival delete second TextView and just put stage-->
+        <TextView
+            android:id="@+id/artistBuilding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="Campus Building"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/artistRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="Rm #"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

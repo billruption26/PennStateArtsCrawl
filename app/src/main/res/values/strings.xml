@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PennStateArtsCrawl</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_lineup">Line Up</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="time_12am">4 pm</string>
+    <string name="time_1am">5 pm</string>
+    <string name="time_2am">6 pm</string>
+    <string name="time_3am">7 pm</string>
+    <string name="time_4am">8 pm</string>
+    <string name="time_5am">9 pm</string>
+    <string name="time_6am">10 pm</string>
+    <string name="time_7am">11 pm</string>
+    <string name="time_8am">8 am</string>
+    <string name="time_9am">9 am</string>
+    <string name="time_10am">10 am</string>
+    <string name="time_11am">11 am</string>
+    <string name="time_12pm">12 pm</string>
+    <string name="time_13pm">1 pm</string>
+    <string name="time_14pm">2 pm</string>
+    <string name="time_15pm">3 pm</string>
+    <string name="time_16pm">4 pm</string>
+    <string name="time_17pm">5 pm</string>
+    <string name="time_18pm">6 pm</string>
+    <string name="time_19pm">7 pm</string>
+    <string name="time_20pm">8 pm</string>
+    <string name="time_21pm">9 pm</string>
+    <string name="time_22pm">10 pm</string>
+    <string name="time_23pm">11 pm</string>
+    <string name="time_24pm">12 pm</string>
+    <string name="current_day_date">8 April, 2011</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="vis_arts_103_fragment">103 Visual Arts</string>
+    <string name="zoller_cafe_fragment">Zoller Cafe</string>
+    <string name="palmer_auditorium_fragment">Palmer Auditorium</string>
+</resources>

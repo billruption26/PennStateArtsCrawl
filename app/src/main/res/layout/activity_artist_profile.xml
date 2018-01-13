@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:drawSelectorOnTop="true">
+
+        <!--take image from the item and make it the profile picture-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/profPic"/>
+
+        <!--take the name of the artist and make it the page title-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/artist_profile_text"
+            android:id="@+id/profName"
+            android:text="title should be here"/>
+
+        <!--take the genre of the artist and display under the name-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/artist_profile_text"
+            android:id="@+id/profGenre"
+            android:text="genre should be here"/>
+
+        <!--take the hometown of the artist and display under the genre-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/artist_profile_text"
+            android:id="@+id/profCity"
+            android:text="East Bumble, Whereever"/>
+
+        <!--create linear layout to display location elements next to each other-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/artist_profile_text"
+                android:id="@+id/profBuild"
+                android:text="building name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/artist_profile_text"
+                android:text=" / "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/artist_profile_text"
+                android:id="@+id/profRoom"
+                android:text="Rm#"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/artist_profile_text"
+            android:id="@+id/profStartTime"
+            android:text="start time"/>
+
+        <!--add a bar to separate the title and the description-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <!--show the description of the item-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/artist_profile_text"
+            android:id="@+id/profDescript"
+            android:text="Generic description of thing here"/>
+
+    </LinearLayout>
+
+</ScrollView>
