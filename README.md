@@ -1,0 +1,3 @@
+# PennStateArtsCrawl
+
+This is an application I attempted to develop in 2011 for an event at Penn State called Arts Crawl. I was a member of the club hosting it, SOMA, and since smartphones were starting to become prevalent at the time I thought it would be a fun thing to attempt as I had very rudimentary coding skills.  I never got it working in time for the event but was recently going through my old external hard drive and found the code. Since I have somewhat of a better idea as to what I am doing now (I'm a PM by trade so still not the greatest app) I decided it would be a fun project to at least get it working.  I am putting it on here so that any other college clubs who wish to have an android app for their events can utilize it as a template.
