@@ -27,8 +27,8 @@
         <!--input the name of the band or artist/art collective-->
         <TextView
             android:id="@+id/artistName"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_width="189dp"
+            android:layout_height="20dp"
             android:layout_weight="1"
             android:gravity="top"
             android:text="Artist Name"
@@ -53,12 +53,12 @@
     <LinearLayout
         android:id="@+id/itemText2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="0dp"
         android:layout_toRightOf="@+id/itemText1"
-        android:gravity="right"
+        android:gravity="left"
         android:orientation="vertical"
         android:paddingLeft="16dp">
 
