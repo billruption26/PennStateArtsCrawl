@@ -35,6 +35,7 @@
             <!--put in obj to go to About activity-->
             <FrameLayout
                 android:id="@+id/about_page"
+                android:background="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|left">
@@ -47,7 +48,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="?android:attr/selectableItemBackground"
                     android:text="About"
                     android:layout_gravity="center|top"/>
             </FrameLayout>
@@ -55,6 +55,7 @@
             <!--put in obj to go to Line Up activity-->
             <FrameLayout
                 android:id="@+id/lineup_page"
+                android:background="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|right">
@@ -75,6 +76,7 @@
             <!--put in obj to go to Schedule activity-->
             <FrameLayout
                 android:id="@+id/schedule_page"
+                android:background="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left">
@@ -95,6 +97,7 @@
             <!--put in obj to go to Map activity-->
             <FrameLayout
                 android:id="@+id/map_page"
+                android:background="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right">
